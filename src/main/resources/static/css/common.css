@@ -1,0 +1,40 @@
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.show_time{
+    margin-top: 30px;
+    margin-right:150px;
+    text-align:right;
+    font-size: 18px;
+}
+
+.content_{
+    margin: 25px;
+}
+.content_item1 {
+    float: left;
+    font-size: 20px;
+}
+.content_item2 {
+    float: right;
+}
+.content_item2_item{
+    color:dodgerblue;
+}
+
+.content_page{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.content_title{
+    margin-left: 140px;
+}
+
+.content_time{
+    float:right;
+    margin-right: 100px;
+}
