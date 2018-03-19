@@ -13,6 +13,8 @@
 
 .content_{
     margin: 25px;
+    width: 60%;
+    margin-left: 20%;
 }
 .content_item1 {
     float: left;
@@ -37,4 +39,74 @@
 .content_time{
     float:right;
     margin-right: 100px;
+}
+
+.recreits_div{
+    height: 1260px;
+}
+
+.recreits_li{
+    height: 188px;
+    margin-left: 10%;
+    border-bottom: 1px dashed #D4D4D4;
+    line-height: 22px;
+    width: 80%;
+    margin-top: 30px;
+/*    height: 180px;
+    !* margin-left: 10%; *!
+    !* border-bottom: 1px solid; *!
+    line-height: 24px;
+    !* width: 80%; *!
+    margin-top: 24px;*/
+   /* height: 80px;
+    margin-left: 10%;
+    border-bottom: 1px solid;
+    line-height: 24px;
+    width: 80%;*/
+}
+
+.recreits_liUnborder{
+    height: 188px;
+    margin-left: 10%;
+    line-height: 22px;
+    width: 80%;
+    margin-top: 30px;
+    /*    height: 180px;
+        !* margin-left: 10%; *!
+        !* border-bottom: 1px solid; *!
+        line-height: 24px;
+        !* width: 80%; *!
+        margin-top: 24px;*/
+    /* height: 80px;
+     margin-left: 10%;
+     border-bottom: 1px solid;
+     line-height: 24px;
+     width: 80%;*/
+}
+.recreits_li_div{
+    float: left;
+    width: 52px;
+    height: 50px;
+    background-image: url(/image/recreit/recreits_image.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.recreits_li_span{
+    color: white;
+    height: 80px;
+    font-size: 23px;
+    margin: 27%;
+    /* margin-top: 42%; */
+    line-height: 52px;
+}
+.recreits_li_b{
+    margin-left: 30px;
+}
+
+.layui-text .imgDiv{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 20px;
 }

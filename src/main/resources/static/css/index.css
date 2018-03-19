@@ -57,3 +57,16 @@ img{
 .layui-nav .layui-nav-item{
     margin-left: 7%;
 }
+
+.list_main{
+    margin: 25px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.layui-text .imgDiv{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 20px;
+}
