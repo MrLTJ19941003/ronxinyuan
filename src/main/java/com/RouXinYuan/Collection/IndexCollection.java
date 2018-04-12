@@ -36,11 +36,12 @@ public class IndexCollection {
         initIndex(model);
         return "index";
     }
+
     /**
-     * 跳转至移动端首页，并初始化首页所需数据
+     * 跳转至pc端首页，并初始化首页所需数据
      */
     @RequestMapping("/index_mobile")
-    public String toIndexMobile(ModelMap model){
+    public String toIndex_mobile(ModelMap model){
         initIndex(model);
         return "index_mobile";
     }
@@ -68,10 +69,11 @@ public class IndexCollection {
     @ResponseBody
     public List<String> getImageUrl(){
         List<String> listImage = new ArrayList<String>();
-        listImage.add("/image/index/index_01.jpg");
-        listImage.add("/image/index/index_02.jpg");
-        listImage.add("/image/index/index_03.jpg");
-        listImage.add("/image/index/index_04.jpg");
+        listImage.add("/image/index/index_02.webp");
+        listImage.add("/image/index/index_03.webp");
+        listImage.add("/image/index/index_04.webp");
+        listImage.add("/image/index/index_05.webp");
+        listImage.add("/image/index/index_06.webp");
         return listImage;
     }
 
@@ -88,10 +90,11 @@ public class IndexCollection {
         model.addAttribute("newsList",newsList);
 
         List<String> listImage = new ArrayList<String>();
-        listImage.add("/image/index/index_01.jpg");
-        listImage.add("/image/index/index_02.jpg");
-        listImage.add("/image/index/index_03.jpg");
-        listImage.add("/image/index/index_04.jpg");
+        listImage.add("/image/index/index_02.webp");
+        listImage.add("/image/index/index_03.webp");
+        listImage.add("/image/index/index_04.webp");
+        listImage.add("/image/index/index_05.webp");
+        listImage.add("/image/index/index_06.webp");
         model.addAttribute("listImage", listImage);
     }
 }

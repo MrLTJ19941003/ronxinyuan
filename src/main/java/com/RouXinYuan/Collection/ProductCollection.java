@@ -12,6 +12,7 @@ import java.util.List;
 
 /**
  * Created by 13045 on 2018/1/17.
+ * 产品模块
  */
 @RequestMapping("/product")
 @Controller

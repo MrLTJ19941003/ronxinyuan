@@ -7,6 +7,7 @@ package com.RouXinYuan.bean;
 public class Product {
     private int id;
     private String productName;
+    private String productDetails;
     private String productContent;
     private String productCreatetime;
     private String productImageurl;
@@ -69,11 +70,20 @@ public class Product {
         this.productUrl = productUrl;
     }
 
+    public String getProductDetails() {
+        return productDetails;
+    }
+
+    public void setProductDetails(String productDetails) {
+        this.productDetails = productDetails;
+    }
+
     @Override
     public String toString() {
         return "Product{" +
                 "id=" + id +
                 ", productName='" + productName + '\'' +
+                ", productDetails='" + productDetails + '\'' +
                 ", productContent='" + productContent + '\'' +
                 ", productCreatetime='" + productCreatetime + '\'' +
                 ", productImageurl='" + productImageurl + '\'' +

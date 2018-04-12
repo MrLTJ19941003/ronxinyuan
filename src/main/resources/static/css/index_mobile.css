@@ -1,50 +1,282 @@
-.mobile_menu
-{
-    list-style:none; /* 去掉ul前面的符号 */
-    margin: 0px; /* 与外界元素的距离为0 */
-    padding: 0px; /* 与内部元素的距离为0 */
-    width: auto; /* 宽度根据元素内容调整 */
-}
-/* 所有class为menu的div中的ul中的li样式 */
-.mobile_menu li
-{
-    float:left; /* 向左漂移，将竖排变为横排 */
-    width: 16.66%;
-}
-/* 所有class为menu的div中的ul中的a样式(包括尚未点击的和点击过的样式) */
-.mobile_menu li a, .mobile_menu li a:visited
-{
-    width:auto;
-    background-color: #465c71; /* 背景色 */
-    border: 1px #4e667d solid; /* 边框 */
-    color: #dde4ec; /* 文字颜色 */
-    display: block; /* 此元素将显示为块级元素，此元素前后会带有换行符 */
-    line-height: 1.35em; /* 行高 */
-    padding: 4px 10px; /* 内部填充的距离 */
-    text-decoration: none; /* 不显示超链接下划线 */
-    white-space: nowrap; /* 对于文本内的空白处，不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 */
-}
-/* 所有class为menu的div中的ul中的a样式(鼠标移动到元素中的样式) */
-.mobile_menu li a:hover
-{
-    background-color: #bfcbd6; /* 背景色 */
-    color: #465c71; /* 文字颜色 */
-    text-decoration: none; /* 不显示超链接下划线 */
-}
-/* 所有class为menu的div中的ul中的a样式(鼠标点击元素时的样式) */
-.mobile_menu li a:active
-{
-    background-color: #465c71; /* 背景色 */
-    color: #cfdbe6; /* 文字颜色 */
-    text-decoration: none; /* 不显示超链接下划线 */
-}
+/* 以下 关于我们、最新动态、联系我们*/
+.content{ width:auto; height:240px; margin-top: 10px; margin:0 auto; overflow:hidden;}
+.about{ width:27%; height:230px; float:left;}
+.about h3{ width:27%; height:24px; line-height:24px; padding:1px 0 10px 30px; font-weight:bold;margin-top: -4%;}
+.about img{ float:left; padding-top:8px;}
+.about p{ float:left; width:27%; padding:0 0 0 10px; line-height:20px; text-indent:2em;}
+.about p a{ color:#ff9e1f}
+.about p a:hover{ color:#70B607}
 
-.new{ width:90%; height:230px;  float:left; padding-left:25px;margin-top: 10px;}
-.new h3{ width:90%; height:24px; line-height:24px; padding:1px 0 10px 0px; font-weight:bold;}
+.new{ width:27%; height:230px;  float:left; padding-left:25px;}
+.new h3{ width:27%; height:24px; line-height:24px; padding:1px 0 10px 0px; font-weight:bold;}
 .new ul{ /*width:285px;*/ overflow:hidden;}
 .new ul li{ height:24px; line-height:24px; }
 .new ul li a{ padding-left:8px; line-height:26px;}
 
+.Contact{ width:28%; float:left; height:230px; padding-left:25px;}
+.Contact h3{ width:28%; height:24px; line-height:24px; padding:1px 0 10px 0px; font-weight:bold;}
+.Contact p{ color:#ff9e1f; line-height:24px;}
+.tel{ line-height:24px;}
+.qq{ height:22px; padding-top:5px;}
+.qq a{ padding-right:10px;}
+
+.jieshao { margin-left: 4px; padding: 0px 0 0px 6px; width: 312px; }
+.jieshao li {
+    float: left;
+    line-height: 24px;
+    margin-right: 28px;
+    padding-top: 67px;
+    text-align: center;
+    width: 75px;
+}
+.footer{
+    width: auto;
+    height:130px;
+    background-color: #2F4056;
+    text-align:center;
+    line-height: 60px;
+}
+.coent{
+    width: auto;
+    height:auto;
+}
+img{
+    width: 100%;
+    height:100%;
+}
 .adress{
     color:#009E94;
 }
+
+
+.layui-nav .layui-nav-item{
+    margin-left: 7%;
+}
+
+.list_main{
+    margin: 25px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.index_menu{
+    width: 100%;height: 135px;
+}
+.index_menu_top{
+    width: 100%;
+    height: 5px;
+    background-color: rgba(231,0,18,1);
+}
+.index_menu_content{
+    width: 100%;
+    height: 65px;
+}
+
+.index_menu_content .div_left{
+    width: 38%;
+    height: 61px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.index_menu_bottom{
+    width: 100%;
+    height: 80px;
+    background-image: url('/image/index/nav_bg_02.jpg');
+    line-height: 55px;
+}
+.index_menu_bottom ul{
+    width: 105%;
+}
+.index_menu_bottom ul li{
+    list-style: none;
+    float: left;
+    width: 14%;
+    text-align: center;
+
+}
+.index_menu_bottom ul li a div {
+    height: 55px;
+    border-bottom-left-radius:0.5em;
+    border-bottom-right-radius:0.5em;
+    border-top-left-radius:0.5em;
+    border-top-right-radius:0.5em;
+}
+.index_menu_bottom ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight:bold;
+}
+.index_menu_bottom ul li a div:hover{
+    background-color: rgba(231,0,18,1);
+    color: #0C0C0C;
+}
+
+.footer_new{
+    width:100%;
+    height: 270px;
+    background-image: url('/image/index/ftbg.jpg');
+}
+.index_footer{
+    position:relative;
+    top: 54px;
+}
+.div_dress_img{
+    top: 30px;
+    margin-left: 2%;
+    width: 22px;
+    height: 29px;
+}
+.div_dress{
+    top: 5px;
+    margin-left: 9%;
+    font-size: 16px;
+    color: #FBFBFB;
+}
+.div_phone_img{
+    top: 72px;
+    margin-left: 5%;
+    width: 31px;
+    height: 32px;
+}
+.div_phone{
+    top: 62px;
+    margin-left: 17%;
+    font-size: 25px;
+    color: #FBFBFB;
+}
+.div_QRcode{
+    width: 60px;
+    height: 60px;
+    margin-left: 69%;
+    top: 6px;
+}
+.div_QRcode_text{
+    margin-left: 69%;
+    font-size: 10px;
+    color: #FBFBFB;
+    top: 10px;
+}
+.div_corporatename{
+    top: 122px;
+    margin-left: 18%;
+    font-size: 16px;
+    color: #FBFBFB;
+}
+.index_footer h3{
+    margin-left: 3%;
+    float: left;
+    font-size: 13px;
+}
+.index_footer h3 a{
+    color: #ffffff;
+}
+.index_footer_div{
+    width: 19px;
+    height: 2px;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.show_time{
+    margin-top: 30px;
+    margin-right:150px;
+    text-align:right;
+    font-size: 18px;
+}
+.content_{
+    margin: 25px;
+    width: 60%;
+    margin-left: 20%;
+}
+.content_item1 {
+    float: left;
+    font-size: 20px;
+}
+.content_item2 {
+    float: right;
+}
+.content_item2_item{
+    color:dodgerblue;
+}
+.content_page{
+    margin-top: 100px;
+    text-align: center;
+}
+.content_title{
+    margin-left: 140px;
+}
+.content_time{
+    float:right;
+    margin-right: 100px;
+}
+.recreits_div{
+    height: 1260px;
+}
+.recreits_li{
+    height: 188px;
+    margin-left: 10%;
+    border-bottom: 1px dashed #D4D4D4;
+    line-height: 22px;
+    width: 80%;
+    margin-top: 30px;
+}
+.recreits_liUnborder{
+    height: 188px;
+    margin-left: 10%;
+    line-height: 22px;
+    width: 80%;
+    margin-top: 30px;
+}
+.recreits_li_div{
+    float: left;
+    width: 52px;
+    height: 50px;
+    background-image: url(/image/recreit/recreits_image.jpg);
+    background-repeat: no-repeat;
+}
+.recreits_li_span{
+    color: white;
+    height: 80px;
+    font-size: 23px;
+    margin: 27%;
+    /* margin-top: 42%; */
+    line-height: 52px;
+}
+.recreits_li_b{
+    margin-left: 30px;
+}
+.layui-text .imgDiv{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 20px;
+}
+.product_{
+    width : 100%;
+}
+.product_ .product_main{
+    width : 100%;
+    height:150px;
+    font-size: 14px;
+    border-bottom: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    background-color: #e2e2e2;
+    margin-top: 10px;
+}
+.product_ .product_img{
+    width : 12%;
+    height:100px;
+    float: left;
+}
+.product_ .product_text{
+    width: 78%;
+    height: 100px;
+    float: right;
+    line-height: 190%;
+    margin: 2%;
+}
+

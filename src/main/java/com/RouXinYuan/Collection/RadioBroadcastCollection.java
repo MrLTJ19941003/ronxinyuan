@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * Created by 13045 on 2018/1/17.
- * 广播控制器类
+ * 广播模块
  */
 @RequestMapping("/plus")
 @Controller

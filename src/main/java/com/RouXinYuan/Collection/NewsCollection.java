@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * Created by 13045 on 2018/1/18.
- * 新闻中心管理
+ * 新闻模块
  */
 @RequestMapping("/news")
 @Controller
